@@ -1,0 +1,3 @@
+[submodule "pwa-examples"]
+	path = pwa-examples
+	url = git@github.com:ahuigo/pwa-examples.git
