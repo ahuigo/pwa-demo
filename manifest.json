@@ -1,0 +1,23 @@
+{
+  "name": "To Do List",
+  "short_name": "todolist",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "minimal-ui",
+  "orientation": "portrait",
+  "Scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "images/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-168.png",
+      "sizes": "168x168",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null
+}
