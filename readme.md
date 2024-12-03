@@ -13,3 +13,4 @@ if we want to change start url to `/pwa`
 
 1. start nginx(https)
 2. access https://s/index.html
+

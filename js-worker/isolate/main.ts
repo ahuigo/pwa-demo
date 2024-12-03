@@ -11,8 +11,13 @@ worker.postMessage({ cmd: "start" });
 
 
 worker.onmessage = (event) => {
-  console.log("worker res:", event.data);
-  console.log("worker res2:", event.data.extra);
+  console.log("main:worker result:", event.data);
+  console.log("main:worker result.extra:", event.data.extra);
+  const resource = {
+    'cpu num': navigator.hardwareConcurrency, // int
+    'window.performance': window.performance, // Performance { timeOrigin: 1728880953246 }
+  };
+  console.log({ main: resource });
 };
 
 worker.onerror = (error) => {
